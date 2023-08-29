@@ -1,0 +1,55 @@
+@font-face {
+    font-family: MonumentExtended-Regular;
+    src: url("../../pages/assets/font/PPMonumentExtended-Regular-BF645465a253250.otf");
+ }
+ body{
+    background: #000 !important;
+ }
+ h1{
+    font-family: MonumentExtended-Regular;
+ }
+ h2{
+    font-family: MonumentExtended-Regular;
+ }
+ h3{
+    font-family: MonumentExtended-Regular;
+ }
+ h4{
+    font-family: MonumentExtended-Regular;
+ }
+ h5{
+    font-family: MonumentExtended-Regular;
+ }
+ h6{
+    font-family: MonumentExtended-Regular;
+ }
+ p{
+    font-family: MonumentExtended-Regular;
+ }
+ span{
+    display: block;
+    font-family: MonumentExtended-Regular;
+ }
+ div{
+    font-family: MonumentExtended-Regular;
+ }
+ ul{
+    padding: 0;
+    margin: 0;
+    font-family: MonumentExtended-Regular;
+ }
+ li{
+    padding: 0;
+    margin: 0;
+    font-family: MonumentExtended-Regular;
+ }
+ a{
+    display: block;
+    font-family: MonumentExtended-Regular;
+ }
+ section{
+    font-family: MonumentExtended-Regular;
+ }
+ svg{
+    cursor: pointer;
+ }

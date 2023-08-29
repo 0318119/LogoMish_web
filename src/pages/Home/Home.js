@@ -1,8 +1,13 @@
 import React from 'react'
+import SmartChoice from '../../components/SmartChoice'
+import DevopsCom from '../../components/DevopsCom'
 
 function Home() {
   return (
-    <div className='container border border-dark'>Home</div>
+    <>
+      <DevopsCom />
+      <SmartChoice />
+    </>
   )
 }
 
