@@ -1,8 +1,11 @@
 import React from 'react'
+import Services from '../../Components/Services'
 
 function Home() {
   return (
-    <div className='container border border-dark'>Home</div>
+    <>
+    <Services />
+    </>
   )
 }
 
