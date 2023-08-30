@@ -1,0 +1,138 @@
+.header_logo{
+    width: 100%;
+    height: 50px;
+}
+
+.HeaderIcon{
+    color: white;
+    font-size: 24px;
+}
+.Header_number{
+    color: white;
+        font-size: 24px;
+}
+
+.MenuIcon{
+       color: white;
+        font-size: 32px;      
+        margin-left: 5px;
+}
+
+.Header_Link{
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+}
+.Header_Link:hover {
+    color: black;
+}
+
+
+
+/* #Main_Container{
+    height: 650px;
+    background-color:black ;
+    border: 1px solid;
+}
+
+.std_imgs{
+    position: absolute;
+        top: 120px;
+        height: 306px;
+        width: 365px;
+}
+
+.menhead{
+animation: myAnim 20s ease 0s 1 normal forwards;
+position: relative;
+    top: 52px;
+    left: 57px;
+    height: 250px;
+    width: 250px;
+    z-index: 99;
+}
+.metrix{
+top: 263px;
+    position: absolute;
+    height: 275px;
+    width: 386px;
+}
+.Cont{
+    line-height: 1px;
+}
+#rightside{
+    height: 475px;
+    position: relative;
+    left: 150px;
+
+}
+
+
+
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateY(-45px);
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateY(-24px);
+    }
+
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateY(-12px);
+    }
+
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateY(-6px);
+    }
+
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateY(-4px);
+    }
+
+    25%,
+    55%,
+    75%,
+    87% {
+        animation-timing-function: ease-out;
+        transform: translateY(0px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.Shapes{
+    animation: myman 1s ease 0s infinite normal none;
+}
+
+@keyframes myman {
+    0% {
+        opacity: 0;
+        transform: translateY(-250px) rotate(-200deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+#Header_heading Link{
+    font-size: 24px;
+} */
