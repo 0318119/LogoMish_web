@@ -1,16 +1,16 @@
 import {useState} from 'react'
-import styles from '../assets/css/header.module.css'
+import styles from '../Assets/css/header.module.css'
 import { FiPhoneCall as PhoneICon} from 'react-icons/fi'
 import { CgMenuLeft as MenuIcon } from 'react-icons/cg'
-import ImgLogo from '../assets/image/logo-mesh-final-logo.png'
-import box1 from '../assets/image/box1-1.png'
-import metrix from '../assets/image/metrix.png'
-import menImg from '../assets/image/head-man.png'
-import boxBotton from '../assets/image/box-bottom.png'
-import shapes from '../assets/image/shape3.png'
-import StandImg from '../assets/image/new.png'
+import ImgLogo from '../Assets/image/logo-mesh-final-logo.png'
+import box1 from '../Assets/image/box1-1.png'
+import metrix from '../Assets/image/metrix.png'
+import menImg from '../Assets/image/head-man.png'
+import boxBotton from '../Assets/image/box-bottom.png'
+import shapes from '../Assets/image/shape3.png'
+import StandImg from '../Assets/image/new.png'
 import Slider from "react-slick";
-import { Link } from 'react-router-dom'
+// import { a } from 'react-router-dom'
 
 
 function Header() {
@@ -81,12 +81,12 @@ function Header() {
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <div className='d-flex flex-column align-items-center' id={styles.Header_heading}>
-                <Link to="/" className={styles.Header_Link}>ABOUT</Link>
-                <Link to="/" className={styles.Header_Link} >SERVICE</Link>
-                <Link to="/" className={styles.Header_Link}>WORK</Link>
-                <Link to="/" className={styles.Header_Link}>BLOG</Link>
-                <Link to="/" className={styles.Header_Link}>PACKAGES</Link>
-                <Link to="/" className={styles.Header_Link}>CONTACT</Link>
+                <a className={styles.Header_Link}>ABOUT</a>
+                <a className={styles.Header_Link} >SERVICE</a>
+                <a className={styles.Header_Link}>WORK</a>
+                <a className={styles.Header_Link}>BLOG</a>
+                <a className={styles.Header_Link}>PACKAGES</a>
+                <a className={styles.Header_Link}>CONTACT</a>
               </div>
             </div>
           </div>
@@ -95,12 +95,12 @@ function Header() {
           <div className="row">
             <div className="col-lg-12">
               <div className='p-4 d-flex  justify-content-between'>
-                <Link to="/" className={styles.Social_link}>FACEBOOK</Link>
-                <Link to="/" className={styles.Social_link}>INSTAGRAM</Link>
-                <Link to="/" className={styles.Social_link}>TWITTER</Link>
-                <Link to="/" className={styles.Social_link}>LINKEDIN</Link>
-                <Link to="/" className={styles.Social_link}>PINTEREST</Link>
-                <Link to="/" className={styles.Social_link}>YOUTUBE</Link>
+                <a className={styles.Social_link}>FACEBOOK</a>
+                <a className={styles.Social_link}>INSTAGRAM</a>
+                <a className={styles.Social_link}>TWITTER</a>
+                <a className={styles.Social_link}>LINKEDIN</a>
+                <a className={styles.Social_link}>PINTEREST</a>
+                <a className={styles.Social_link}>YOUTUBE</a>
               </div>
             </div>
           </div>
@@ -109,9 +109,9 @@ function Header() {
           <div className="row">
             <div className="col-lg-12">
               <div className='p-4 d-flex  justify-content-evenly'>
-                <Link to="/" className={styles.contact_link}>team@logomish.com</Link>
-                <Link to="/" className={styles.contact_link}>privacy policy</Link>
-                <Link to="/" className={styles.contact_link}>accessibility</Link>
+                <a className={styles.contact_link}>team@logomish.com</a>
+                <a className={styles.contact_link}>privacy policy</a>
+                <a className={styles.contact_link}>accessibility</a>
               </div>
             </div>
           </div>

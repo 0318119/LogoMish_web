@@ -1,16 +1,15 @@
 import React from 'react'
-import Header from "../../components/Header"
-import SmartChoice from '../../components/SmartChoice'
-import DevopsCom from '../../components/DevopsCom'
-import Services from '../../components/Services'
+import Header from "../../Components/Header"
+import SmartChoice from '../../Components/SmartChoice'
+import DevopsCom from '../../Components/DevopsCom'
+import Services from '../../Components/Services'
+import VideoCom from '../../Components/VideoCom'
 
 function Home() {
   return (
     <>
-    <section>
-        <Header />
-    </section>
-    
+      <Header />
+      <VideoCom />
       <DevopsCom />
       <Services />
       <SmartChoice />
@@ -18,4 +17,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
