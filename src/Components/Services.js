@@ -17,7 +17,6 @@ const Services = () => {
 
         <section className='mt-5'>
             <div className="container">
-
                 <div className='row'>
                     <div className="col-md-6">
                         <div className={`${services.logomisAimBox}`}>
@@ -31,12 +30,11 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="row mt-5">
                     <div className="col-lg-12">
-                        <div>
+                        <div className={`${services.servicesSection}`}>
                             <marquee className={`${services.textAnimations}`}>SERVICES</marquee>
-                            <p>
+                            <p className={`${services.homeServciesDes}`}>
                                 We specialize in transforming your ideas into reality and amplifying your brand’s digital presence. 
                                 Our comprehensive range of digital media marketing services is designed to cater to all your digital needs.
                                 We offer a comprehensive range of digital marketing services, covering everything from development to social

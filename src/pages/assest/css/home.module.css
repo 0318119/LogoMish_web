@@ -42,6 +42,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 .smartChoiceHead {
@@ -134,6 +135,7 @@
 .flip_card:hover .flip_card_inner {
     transform: rotateY(180deg);
 }
+/* SERVICES SECTION CSS =-=-=-=---==== */
 .logomisAimBox{
     color: white;
 }
@@ -147,9 +149,14 @@
     font-size: 35px;
     font-weight: 400;
 }
-.textAnimations{
-    font-size: 200px;
+
+.servicesSection .textAnimations{
+    font-size: 150px;
     color: white
+}
+
+.homeServciesDes{
+    color: white;
 }
 
 .servicesTabsSection{
@@ -171,6 +178,7 @@
     align-items: center;
     width: 80%;
     margin-top: 20px;
+    color: white;
     
 }
 .servicesleftBox img{
@@ -184,6 +192,10 @@
     filter: invert(44%) sepia(69%) saturate(7069%) hue-rotate(2deg) brightness(103%) contrast(100%);
     height: 20px;
 }
+/* -============================================ */
+
+
+
 
 /* ========================================== */
 @media screen and (max-width: 992px){
