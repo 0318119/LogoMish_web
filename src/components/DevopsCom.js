@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import logo from '../assets/images/logo.avi'
-import DevOps_style from '../pages/assets/css/home.module.css'
+import DevOps_style from '../pages/assest/css/home.module.css'
+import Demo from '../pages/assest/images/videos/demo_video.mp4'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

@@ -4,6 +4,64 @@
     src: url("../font/PPMonumentExtended-Light-BF645465a264007.otf");
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* HOME SLIDER CSS SECTION CSS ================================ */
+.homeSLiderMainBox{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+.homeSLiderBg{
+    color: white;
+    background-image: linear-gradient(to right, #CB88F2 , #14A4FE);
+    height: inherit;
+    width: 100%;
+}
+.homeSliderWholeBox{
+    position: relative;
+    width: 100% !important;
+    height: 500px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+}
+.homeSliderWholeBox .homeSliderImageBox{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeSliderWholeBox #firstSlide .one{
+    position: absolute;
+    height: 250px;
+    z-index: 99;
+}
+.homeSliderWholeBox #firstSlide .two{
+    position: absolute;
+    height: 300px;
+}
+.homeSliderWholeBox #firstSlide .three{
+    position: absolute;
+    left: 0;
+    height: 45px;
+}
+.homeSliderWholeBox #firstSlide .four{
+    position: absolute;
+    right: 0;
+}
+.homeSliderWholeBox .homeSLiderContent{}
+/* ============================================================= */
+
+
+
+
+
 /* DEVOPS SECTION CSS =-=-=-=-=-=-=-=-=-=-=-=-=- */
 .devOpsDesBox{
     margin-top: 50px;
@@ -63,7 +121,6 @@
     text-align: center;
     font-weight: 200;
 }
-
 .smartChoiceItems {
     display: flex;
     justify-content: space-between;
@@ -135,6 +192,8 @@
 .flip_card:hover .flip_card_inner {
     transform: rotateY(180deg);
 }
+/* =============================================== */
+
 /* SERVICES SECTION CSS =-=-=-=---==== */
 .logomisAimBox{
     color: white;
@@ -194,6 +253,100 @@
 }
 /* -============================================ */
 
+/* CLIENT SLIDER =============================== */
+.ClientSliderSection{
+    margin-top: 50px;
+    background: #E22F2C;
+    padding: 50px 0;
+}
+.mainBoxofClientSlider{
+    text-align: center;
+    color: white;
+}
+.mainBoxofClientSlider h4{
+    font-size: 40px;
+    font-weight: 500;
+}
+.mainBoxofClientSlider span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.clientSlidingBox{
+    margin-top: 40px;
+}
+.clientSlidingBox .innerclientSlidingBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clientSlidingBox .innerclientSlidingBox img{
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+/* ============================================= */
+
+/* DEVOPS SERVICES SECTION CSS =================== */
+.devopsServicesSection{
+    margin-top: 80px;
+}
+.devopsSerHead{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+.devopsSerDes{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.devopsSerivesItem{
+    background: #E22F2C;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    border: 1px solid white;
+    height: 261px;
+    cursor: pointer;
+}
+.devopsSerivesItem:hover{
+    transition: all 1s;
+    box-shadow: -4px -2px 45px gray;
+}
+.devopsSerivesItem svg{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 27px;
+}
+.devopsSerivesItem h5{
+    font-size: 13px;
+    font-weight: 500;
+}
+.devopsSerivesItem p{
+    font-size: 10px;
+}
+/* =============================================== */
+
+
+/* PORTFOLIO SECTION HEAD CSS  =================== */
+.homePortSection{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.homePortSection .homePortHead{
+    font-size: 35px;
+    font-weight: 500;
+}
+.homePortSection .homePortDes{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+/* ================================================ */
 
 
 
@@ -208,6 +361,48 @@
     .smartChoiceItems .flip_card {
         width: 45%;
         margin: 20px 0;
+    }
+    .devopsSerHead{
+        font-size: 30px;
+    }
+    .devopsSerDes{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .servicesSection .textAnimations{
+        font-size: 70px;
+    }
+    .logomisAimBox h2{
+        font-size: 22px;
+    }
+    .logomisAimBox p{
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 29px;
+    }
+    .mainBoxofClientSlider span{
+        font-size: 10px !important;
+    }
+    .homeServciesDes{
+        font-size: 10px;
+        line-height: 29px;
+        letter-spacing: 1px;
+    }
+    .servicesleftBox h5{
+        font-size: 18px;
+    }
+    .clientSlidingBox .innerclientSlidingBox img{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 320px){
+    .mainBoxofClientSlider h4{
+        font-size: 29px;
+    }
+    .clientSlidingBox .innerclientSlidingBox img{
+        height: 100px;
     }
 }
 @media screen and (max-width: 480px){
