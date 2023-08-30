@@ -94,8 +94,24 @@ function Header() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12">
-              <div>
-                <Link to="/"></Link>
+              <div className='p-4 d-flex  justify-content-between'>
+                <Link to="/" className={styles.Social_link}>FACEBOOK</Link>
+                <Link to="/" className={styles.Social_link}>INSTAGRAM</Link>
+                <Link to="/" className={styles.Social_link}>TWITTER</Link>
+                <Link to="/" className={styles.Social_link}>LINKEDIN</Link>
+                <Link to="/" className={styles.Social_link}>PINTEREST</Link>
+                <Link to="/" className={styles.Social_link}>YOUTUBE</Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className='p-4 d-flex  justify-content-evenly'>
+                <Link to="/" className={styles.contact_link}>team@logomish.com</Link>
+                <Link to="/" className={styles.contact_link}>privacy policy</Link>
+                <Link to="/" className={styles.contact_link}>accessibility</Link>
               </div>
             </div>
           </div>

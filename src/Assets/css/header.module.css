@@ -29,7 +29,28 @@
     color: black;
 }
 
+.Social_link{
+    font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        text-decoration: none;
+        color: white;
+}
+.Social_link:hover {
+        color: black;
+}
 
+.contact_link{
+    font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-decoration: none;
+        color: white;
+}
+
+.contact_link:hover {
+    color: black;
+}
 
 /* #Main_Container{
     height: 650px;
