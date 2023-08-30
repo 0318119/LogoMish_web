@@ -7,6 +7,7 @@ function Home() {
   return (
     <>
       <DevopsCom />
+      <Services />
       <SmartChoice />
       <Services />
     </>

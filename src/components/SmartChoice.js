@@ -1,5 +1,5 @@
 import React from 'react'
-import SmartChoice_style from '../pages/assets/css/home.module.css'
+import SmartChoice_style from '../pages/assest/css/home.module.css'
 import { MdOutlineColorLens as Color_box } from 'react-icons/md';
 import { GiWorld as Creative_ico } from 'react-icons/gi';
 import { AiOutlineFundProjectionScreen as Screen_ico } from 'react-icons/ai';
