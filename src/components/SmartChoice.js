@@ -69,7 +69,7 @@ const SmartChoice = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class={`${SmartChoice_style.flip_card}`} tabIndex="0">1
+                        <div class={`${SmartChoice_style.flip_card}`} tabIndex="0">
                             <div class={`${SmartChoice_style.flip_card_inner}`}>
                                 <div class={`${SmartChoice_style.flip_card_front}`}>
                                     <Rocket_ico />
