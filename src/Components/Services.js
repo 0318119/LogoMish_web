@@ -1,7 +1,6 @@
 import React from 'react'
 import services from '../pages/assest/css/home.module.css'
-import { Container } from 'react-bootstrap'
-import serviceIMG from '../Assets/images/Devops.webp.png'
+import serviceIMG from '../pages/assest/images/Devops.webp'
 import web_dev from '../pages/assest/images/Icons/web_dev.webp'
 import SMM from '../pages/assest/images/Icons/SMM.avi'
 import Applicationsetting from '../pages/assest/images/Icons/Application-setting.avi'
@@ -16,9 +15,8 @@ const Services = () => {
     return (
         <>
 
-        <section>
+        <section className='mt-5'>
             <div className="container">
-
                 <div className='row'>
                     <div className="col-md-6">
                         <div className={`${services.logomisAimBox}`}>
@@ -32,12 +30,11 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="row">
+                <div className="row mt-5">
                     <div className="col-lg-12">
-                        <div>
+                        <div className={`${services.servicesSection}`}>
                             <marquee className={`${services.textAnimations}`}>SERVICES</marquee>
-                            <p>
+                            <p className={`${services.homeServciesDes}`}>
                                 We specialize in transforming your ideas into reality and amplifying your brand’s digital presence. 
                                 Our comprehensive range of digital media marketing services is designed to cater to all your digital needs.
                                 We offer a comprehensive range of digital marketing services, covering everything from development to social
@@ -46,7 +43,6 @@ const Services = () => {
                             </p>
                         </div>
                         <div className={`${services.servicesTabsSection}`}>
-
                             <div className={`${services.servicesSecInnerBox}`}>
                                 <div className={`${services.servicesleftBox}`}>
                                     <img src={web_dev} alt="" />
@@ -54,7 +50,6 @@ const Services = () => {
                                 </div>
                                 <img className={`${services.rightArrowImgServices}`} src={rightArrow} alt="" />
                             </div>
-
                             <div className={`${services.servicesSecInnerBox}`}>
                                 <div className={`${services.servicesleftBox}`}>
                                     <img src={SMM} alt="" />
@@ -104,15 +99,9 @@ const Services = () => {
                                 </div>
                                 <img className={`${services.rightArrowImgServices}`} src={rightArrow} alt="" />
                             </div>
-
                         </div>
                     </div>
                 </div>
-
-                {/* <p>We specialize in transforming your ideas into reality and amplifying your brand’s digital presence...</p> */}
-
-
-
             </div>
         </section>
 

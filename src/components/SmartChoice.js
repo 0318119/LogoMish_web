@@ -1,5 +1,5 @@
 import React from 'react'
-import SmartChoice_style from '../pages/assets/css/home.module.css'
+import SmartChoice_style from '../pages/assest/css/home.module.css'
 import { MdOutlineColorLens as Color_box } from 'react-icons/md';
 import { GiWorld as Creative_ico } from 'react-icons/gi';
 import { AiOutlineFundProjectionScreen as Screen_ico } from 'react-icons/ai';
@@ -59,7 +59,7 @@ const SmartChoice = () => {
                             <div class={`${SmartChoice_style.flip_card_inner}`}>
                                 <div class={`${SmartChoice_style.flip_card_front}`}>
                                     <Screen_ico />
-                                    <h5>Expert & Expertise</h5>
+                                    <h5>Personalized Approach</h5>
                                 </div>
                                 <div class={`${SmartChoice_style.flip_card_back}`}>
                                 <p> 
@@ -73,7 +73,7 @@ const SmartChoice = () => {
                             <div class={`${SmartChoice_style.flip_card_inner}`}>
                                 <div class={`${SmartChoice_style.flip_card_front}`}>
                                     <Rocket_ico />
-                                    <h5>Expert & Expertise</h5>
+                                    <h5>Prompt Delivery</h5>
                                 </div>
                                 <div class={`${SmartChoice_style.flip_card_back}`}>
                                 <p> 
