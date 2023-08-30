@@ -59,7 +59,7 @@ const SmartChoice = () => {
                             <div class={`${SmartChoice_style.flip_card_inner}`}>
                                 <div class={`${SmartChoice_style.flip_card_front}`}>
                                     <Screen_ico />
-                                    <h5>Expert & Expertise</h5>
+                                    <h5>Personalized Approach</h5>
                                 </div>
                                 <div class={`${SmartChoice_style.flip_card_back}`}>
                                 <p> 
@@ -69,11 +69,11 @@ const SmartChoice = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class={`${SmartChoice_style.flip_card}`} tabIndex="0">1
+                        <div class={`${SmartChoice_style.flip_card}`} tabIndex="0">
                             <div class={`${SmartChoice_style.flip_card_inner}`}>
                                 <div class={`${SmartChoice_style.flip_card_front}`}>
                                     <Rocket_ico />
-                                    <h5>Expert & Expertise</h5>
+                                    <h5>Prompt Delivery</h5>
                                 </div>
                                 <div class={`${SmartChoice_style.flip_card_back}`}>
                                 <p> 
