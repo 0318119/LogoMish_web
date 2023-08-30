@@ -1,14 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import './assets/css/main.css'
-import Route from './routes/route'
-
-function App() {
+import React from 'react'
+const App = () => {
   return (
-     <div>
-        <Route />
-     </div>
-  );
+    <>
+    <Routing />
+    </>
+  )
 }
 
-export default App;
+export default App

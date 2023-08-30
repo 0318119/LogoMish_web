@@ -1,12 +1,14 @@
 import React from 'react'
-import SmartChoice from '../../components/SmartChoice'
 import DevopsCom from '../../components/DevopsCom'
+import SmartChoice from '../../Components/SmartChoice'
+import Services from '../../Components/Services'
 
 function Home() {
   return (
     <>
       <DevopsCom />
       <SmartChoice />
+      <Services />
     </>
   )
 }
