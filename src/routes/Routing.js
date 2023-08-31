@@ -5,7 +5,7 @@ import Home from '../pages/Home/Home';
 
 
 
-function route() {
+function Routing() {
   return (
     <Router>
      <Routes>
@@ -16,4 +16,4 @@ function route() {
   )
 }
 
-export default route
+export default Routing

@@ -1,7 +1,9 @@
 import React from 'react'
-import DevopsCom from '../../components/DevopsCom'
+import DevopsCom from '../../Components/DevopsCom'
 import SmartChoice from '../../Components/SmartChoice'
 import Services from '../../Components/Services'
+import TheCohort from '../../Components/TheCohort'
+import ConnectourTeam from '../../Components/ConnectourTeam'
 
 function Home() {
   return (
@@ -9,7 +11,8 @@ function Home() {
       <DevopsCom />
       <Services />
       <SmartChoice />
-      <Services />
+      <TheCohort />
+      <ConnectourTeam/>
     </>
   )
 }
