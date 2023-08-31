@@ -6,13 +6,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+@keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+}
 
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
 /* HOME SLIDER CSS SECTION CSS ================================ */
 .homeSLiderMainBox{
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-    height: 500px;
+    height: 700px;
     width: 100%;
 }
 .homeSLiderBg{
@@ -24,38 +40,116 @@
 .homeSliderWholeBox{
     position: relative;
     width: 100% !important;
-    height: 500px;
+    height: 700px;
     display: flex !important;
     align-items: center;
     justify-content: center;
-    /* background: red; */
 }
 .homeSliderWholeBox .homeSliderImageBox{
     width: 50%;
     position: absolute;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.homeSliderWholeBox #firstSlide .one{
+   
+/* .homeSliderWholeBox #firstSlide .one{
     position: absolute;
     height: 250px;
     z-index: 99;
-}
-.homeSliderWholeBox #firstSlide .two{
+    animation: float 8s infinite;
+} */
+/* .homeSliderWholeBox #firstSlide .two{
     position: absolute;
     height: 300px;
-}
-.homeSliderWholeBox #firstSlide .three{
+} */
+/* .homeSliderWholeBox #firstSlide .three{
     position: absolute;
-    left: 0;
+    left: 10px;
     height: 45px;
-}
-.homeSliderWholeBox #firstSlide .four{
+    animation: float 6s ease-in-out infinite;
+} */
+/* .homeSliderWholeBox #firstSlide .four{
+    position: absolute;
+    right: 10px;
+    animation: float 6s ease-in-out infinite;
+} */
+/* .homeSliderWholeBox #firstSlide .five{
     position: absolute;
     right: 0;
+    height: 90px;
+    top: -190px;
+    animation: animName 2s linear infinite;
+} */
+/* .homeSliderWholeBox #firstSlide .six{
+    position: absolute;
+    top: 0;
+    animation: float 7s  linear infinite;
+} */
+/* .homeSliderWholeBox .homeSLiderContent{
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    text-align: center;
 }
-.homeSliderWholeBox .homeSLiderContent{}
+.homeSliderWholeBox .homeSLiderContent h4{
+    font-family: Poppins;
+    color: transparent;
+    text-align: left;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 44px;
+    padding: 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+.homeSliderWholeBox .homeSLiderContent span{
+    font-family: Poppins;
+    color: transparent;
+    text-align: left;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.homeSliderWholeBox .homeSLiderContent h5{
+    font-family: Poppins;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+} */
+
+
+
+/* SECOND SLIDE CSS */
+.homeSliderWholeBox #scdSlide .one{
+    position: absolute;
+    height: 224px;
+    z-index: 11;
+    opacity: 1;
+    visibility: visible;
+}
+.homeSliderWholeBox #scdSlide .two{
+    position: absolute;
+    height: 483px;
+}
+    /* z-index: 11; */
+    /* color: rgb(255, 255, 255); */
+    /* width: 417.293px; */
+    /* height: 187.227px; */
+    /* min-height: 0px; */
+    /* min-width: 0px; */
+    /* max-height: none; */
+    /* max-width: none; */
+    /* transform: translate(0px, 0px); */
+    /* visibility: visible; */
+    /* transform-origin: 50% 50%; */
+    /* opacity: 1; */
 /* ============================================================= */
 
 
@@ -197,6 +291,7 @@
 /* SERVICES SECTION CSS =-=-=-=---==== */
 .logomisAimBox{
     color: white;
+    
 }
 .logomisAimBox img{
     width: 100%;
@@ -211,7 +306,14 @@
 
 .servicesSection .textAnimations{
     font-size: 150px;
-    color: white
+    color: white;
+    font-family: Poppins;
+    color: transparent;
+    text-align: left;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
 }
 
 .homeServciesDes{
