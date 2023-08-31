@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import SmartChoice_style from '../pages/assest/css/home.module.css'
 import { MdOutlineColorLens as Color_box } from 'react-icons/md';
 import { GiWorld as Creative_ico } from 'react-icons/gi';

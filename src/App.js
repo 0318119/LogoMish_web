@@ -1,12 +1,14 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './assets/css/main.css'
-import Route from './routes/route'
+import '../src/Assets/css/main.css'
+// import route from './routes/route'
+import Home from './pages/Home/Home';
 
 function App() {
   return (
      <div>
-        <Route />
+        <Home />
      </div>
   );
 }
