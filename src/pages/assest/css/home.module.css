@@ -15,6 +15,11 @@
       }
 }
 
+@keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.5;}
+  }
+
 @keyframes float {
     0% {
       transform: translatey(0px);
@@ -27,15 +32,9 @@
     }
   }
 /* HOME SLIDER CSS SECTION CSS ================================ */
-.homeSLiderMainBox{
-    height: 700px;
-    width: 100%;
-}
-.homeSLiderBg{
-    color: white;
+
+#homeSLiderBg{
     background-image: linear-gradient(to right, #CB88F2 , #14A4FE);
-    height: inherit;
-    width: 100%;
 }
 .homeSliderWholeBox{
     position: relative;
@@ -45,15 +44,70 @@
     align-items: center;
     justify-content: center;
 }
-.homeSliderWholeBox .homeSliderImageBox{
-    width: 50%;
+.homeSliderWholeBox .homeSliderBox{
+    height: inherit;
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* background: red; */
+    width: 50%;
     justify-content: center;
+    display: flex;
 }
-   
+#firstSlide .one{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 10%;
+    object-fit: contain;
+    z-index: 9;
+    animation: float 8s infinite;
+}
+#firstSlide .two{
+    display: flex;
+    height: 364px;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    top: -34%;
+}
+#firstSlide .three{
+    position: absolute;
+    top: 26%;
+    left: 20px;
+    object-fit: contain;
+    height: 63px;
+}
+#firstSlide .four{
+    position: absolute;
+    top: 42%;
+    right: 15px;
+    object-fit: contain;
+    height: 45px;
+}
+#firstSlide .blinkerOne{
+    position: absolute;
+    top: 26%;
+    left: 45px;
+    object-fit: contain;
+    height: 28px;
+    animation: blinker 2s infinite;
+}
+#firstSlide .blinkerTwo{
+    position: absolute;
+    top: 31%;
+    left: 18px;
+    object-fit: contain;
+    height: 28px;
+    animation: blinker 1s infinite;
+}
+#firstSlide .blinkerthree{
+    position: absolute;
+    top: 42%;
+    right: 15px;
+    object-fit: contain;
+    height: 45px;
+    animation: blinker 1.2s infinite;
+}
+/* .homeSliderWholeBox .homeSliderBox */
 /* .homeSliderWholeBox #firstSlide .one{
     position: absolute;
     height: 250px;

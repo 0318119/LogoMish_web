@@ -1,6 +1,12 @@
-#Header_Contact_Container {
-    background: rgb(12, 145, 255);
-    background: linear-gradient(0deg, rgba(12, 145, 255, 0.9192051820728291) 4%, rgba(219, 101, 220, 0.9304096638655462) 97%);
+
+.headerSection{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+#setBg{
+    background-image: linear-gradient(to right, #CB88F2 , #14A4FE);
 }
 
 .header_logo {
@@ -15,13 +21,20 @@
 
 .Header_number {
     color: white;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 .MenuIcon {
     color: white;
-    font-size: 32px;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.barIcon{
+    color: white;
     margin-left: 5px;
+    font-size: 24px;
 }
 
 .Header_Link {
@@ -103,7 +116,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:480px) {
     .Header_number {
         color: white;
         font-size: 10px;
@@ -118,6 +131,9 @@
     .header_logo {
         width: 70%;
         height: 35px;
+    }
+    .Header_Link {
+        font-size: 30px !important;
     }
 }
 

@@ -9,6 +9,7 @@ import three from '../pages/assest/images/sliders_images/box1-1.avi'
 import four from '../pages/assest/images/sliders_images/box-bottom.avi'
 import five from '../pages/assest/images/sliders_images/shape3.avi'
 import six from '../pages/assest/images/sliders_images/metrix.avi'
+import seven from '../pages/assest/images/sliders_images/glow-bottom.avi'
 // ===============================================================
 import scd_slide_one from '../pages/assest/images/sliders_images/logo1-1.avi'
 import scd_slide_two  from  '../pages/assest/images/sliders_images/women-2.avi'
@@ -28,7 +29,7 @@ const HomeSlider = () => {
     <section>
         <div className="container-fluid p-0">
             <div className="row">
-                <div className="col-12">
+                <div className="col-12" id={`${style.homeSLiderBg}`}>
                     {/* <div className={`${style.homeSLiderMainBox}`}> */}
                         <SimpleSlider />
                     {/* </div> */}
@@ -45,7 +46,7 @@ export class SimpleSlider extends Component {
         dots: true,
         centerMode: true,
         arrows: false,
-        className: "homeSlider",
+        // className: "homeSlider",
         padding: false,
         centerPadding: "0",
         speed: 500,
@@ -56,13 +57,22 @@ export class SimpleSlider extends Component {
         // <div className={`${style.homeSLiderBg}`}>
           <Slider {...settings}>
             <div className={`${style.homeSliderWholeBox}`}>
-                <div className={`${style.homeSliderImageBox}`} id={`${style.firstSlide}`}>
-                    <img src={two} alt=""  className={`${style.one}`}/>
-                    <img src={one} alt="" className={`${style.two}`}/>
-                    <img src={three} alt="" className={`${style.three}`}/>
+                <div className={`${style.homeSliderBox}`} id={`${style.firstSlide}`}>
+                    <div className="">
+                        <img src={two} alt=""  className={`${style.one}`}/>
+                        <img src={one} alt="" className={`${style.two}`}/>
+                        <img src={three} alt="" className={`${style.three}`}/>
+                        <img src={seven} alt="" className={`${style.blinkerOne}`}/>
+                        <img src={seven} alt="" className={`${style.blinkerTwo}`}/>
+                        <img src={four} alt="" className={`${style.four}`}/>
+                        <img src={seven} alt="" className={`${style.blinkerthree}`}/>
+                    </div>
+
+                    {/* 
+                    
                     <img src={four} alt="" className={`${style.four}`}/>
                     <img src={five} alt="" className={`${style.five}`}/>
-                    <img src={six} alt="" className={`${style.six}`}/>
+                    <img src={six} alt="" className={`${style.six}`}/> */}
                 </div>
                 {/* <div className={`${style.homeSLiderContent}`}>
                     <h4 data-aos="fade-right">We are</h4>
