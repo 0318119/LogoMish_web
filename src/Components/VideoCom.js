@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../Assets/css/VideoCom.module.css'
+import styles from '../pages/assest/css/home.module.css'
 import one from '../pages/assest/images/videos/logomish1.mp4'
 import Two from '../pages/assest/images/videos/logomish2.mp4'
 import Three from '../pages/assest/images/videos/logomish3.mp4'

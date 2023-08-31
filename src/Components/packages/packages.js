@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../assets/css/package.module.css'
+import styles from '../packages/assets/css/package.module.css'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Logodesign from './Logodesign';
 import Websitepkg from './websitepkg';

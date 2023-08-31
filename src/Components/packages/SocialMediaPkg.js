@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../assets/css/LogoDesignPkg.module.css'
+import styles from '../packages/assets/css/LogoDesignPkg.module.css'
 import PackageLogo from '../../pages/assest/images/package_log.png'
 import { BiCheck as CheckTick } from 'react-icons/bi'
 import { BsFillTelephoneFill as ContactIcon } from 'react-icons/bs'

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../assets/css/Footer.module.css'
+import styles from '../pages/assest/css/Footer.module.css'
 import FooterlogoImg from '../assets/image/logo-mesh-final-logo.png'
 import { Link } from 'react-router-dom'
 import { AiOutlineMail as Main_Ico } from 'react-icons/ai'

@@ -1,16 +1,8 @@
-import {useState} from 'react'
-import styles from '../Assets/css/header.module.css'
+import styles from '../pages/assest/css/header.module.css'
 import { FiPhoneCall as PhoneICon} from 'react-icons/fi'
 import { RxCross1 as MenuIcon } from 'react-icons/rx'
 import ImgLogo from '../assets/image/logo-mesh-final-logo.png'
-import box1 from '../assets/image/box1-1.png'
-import metrix from '../assets/image/metrix.png'
-import menImg from '../assets/image/head-man.png'
-import boxBotton from '../assets/image/box-bottom.png'
-import shapes from '../assets/image/shape3.png'
-import StandImg from '../assets/image/new.png'
-import Slider from "react-slick";
-// import { a } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 function Header() {
