@@ -289,6 +289,35 @@
 .TheCohortParnershipSection img{
     height: 300px;  
 }
+
+
+@media screen and (max-width:480px){
+    
+    .TheCohortSection h2 {
+        font-size: 30px;
+    }
+
+    .TheCohortSection p{
+        font-size: 12px;
+    }
+
+    .TheCohortReadhereSection h1 {
+        font-size: 50px;
+    }
+
+    .TheCohortReadhereSection p {
+        font-size: 12px;
+    }
+
+    .TheCohortPartnershipSection h2{
+        font-size: 30px;
+    }
+
+    .TheCohortPartnershipSection hp{
+        font-size: 12px;
+    }
+}
+
 /* =================================================== */
 
 /* CONNECT OUR TEAM SECTION CSS =-=-=-=---==== */
@@ -322,6 +351,18 @@ textarea {
     width: 100%;
     color: #FFFFFF;
 }
+
+@media screen and (max-width:480px) {
+    
+    .ConnectourTeamSections h1{
+        font-size: 30px;  
+    }
+
+    .ConnectourTeamSection p{
+        font-size: 13px;
+    }
+}
+
 /* =================================================== */
 
 
