@@ -1,0 +1,178 @@
+.logo_design_bronze {
+    box-shadow: 0px -1px 10px -3px white;
+    border-radius: 8px;
+}
+
+.Package_header {
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.PackageLogo {
+    width: 23%;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.PackageLogo2 {
+    width: 16%;
+    height: 75px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.logo_design_price {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo_design_para {
+    font-size: 14px;
+    color: white;
+
+}
+
+.Logo_design_order_btn2 {
+    font-weight: 900;
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+
+.Logo_design_order_btn2:hover {
+    background-color: white;
+    color: #e22f2c;
+    font-weight: 900;
+}
+
+.Logo_design_order_btn {
+    font-weight: 900;
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+
+.Logo_design_order_btn:hover {
+    background-color: white;
+    color: #e22f2c;
+    font-weight: 900;
+}
+
+.detaillist li {
+    list-style: none;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.CheckTick {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.detaillist {
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: clip;
+}
+
+.detaillist::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.detaillist::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 50px #b30000;
+    border-radius: 10px;
+}
+
+/* Handle */
+.detaillist::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.detaillist::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+#contactBreak {
+    border-right: 1px solid white;
+}
+
+.ContactIcon {
+    font-size: 16px;
+    color: white;
+}
+
+.Contact_para {
+    font-size: 8px;
+    padding: 5px;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:992px) {
+    .PackageLogo {
+        width: 11%;
+        height: 78px;
+    }
+
+    .PackageLogo2 {
+        width: 11%;
+        height: 78px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .PackageLogo {
+        width: 16%;
+        height: 78px;
+    }
+
+    .PackageLogo2 {
+        width: 16%;
+        height: 78px;
+    }
+}
+@media screen and (max-width:500px) {
+    .PackageLogo {
+        width: 20%;
+        height: 78px;
+    }
+
+    .PackageLogo2 {
+        width: 20%;
+        height: 78px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .PackageLogo {
+        width: 23%;
+        height: 78px;
+    }
+
+    .PackageLogo2 {
+        width: 23%;
+        height: 78px;
+    }
+}

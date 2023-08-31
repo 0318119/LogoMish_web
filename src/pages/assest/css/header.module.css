@@ -1,0 +1,135 @@
+#Header_Contact_Container {
+    background: rgb(12, 145, 255);
+    background: linear-gradient(0deg, rgba(12, 145, 255, 0.9192051820728291) 4%, rgba(219, 101, 220, 0.9304096638655462) 97%);
+}
+
+.header_logo {
+    width: 100%;
+    height: 50px;
+}
+
+.HeaderIcon {
+    color: white;
+    font-size: 24px;
+}
+
+.Header_number {
+    color: white;
+    font-size: 24px;
+}
+
+.MenuIcon {
+    color: white;
+    font-size: 32px;
+    margin-left: 5px;
+}
+
+.Header_Link {
+    font-size: 50px;
+    font-weight: 999;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.Header_Link:hover {
+    color: black;
+}
+
+.Social_link {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.Social_link:hover {
+    color: black;
+}
+
+.contact_link {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact_link:hover {
+    color: black;
+}
+
+#social_Links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:992px) {
+    .Header_number {
+        color: white;
+        font-size: 16px;
+    }
+
+    .MenuIcon {
+        color: white;
+        font-size: 22px;
+        margin-left: 5px;
+    }
+
+    .header_logo {
+        width: 90%;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .Header_number {
+        color: white;
+        font-size: 12px;
+    }
+
+    .MenuIcon {
+        color: white;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .header_logo {
+        width: 80%;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Header_number {
+        color: white;
+        font-size: 10px;
+    }
+
+    .MenuIcon {
+        color: white;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .header_logo {
+        width: 70%;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .Header_Link {
+        font-size: 40px;
+    }
+
+    .Social_link {
+        font-size: 16px;
+    }
+        .contact_link {
+            font-size: 14px;
+        }
+}

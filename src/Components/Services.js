@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import services from '../pages/assest/css/home.module.css'
 import serviceIMG from '../pages/assest/images/Devops.webp'
 import web_dev from '../pages/assest/images/Icons/web_dev.webp'

@@ -5,6 +5,157 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+@keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+}
+
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+/* HOME SLIDER CSS SECTION CSS ================================ */
+.homeSLiderMainBox{
+    height: 700px;
+    width: 100%;
+}
+.homeSLiderBg{
+    color: white;
+    background-image: linear-gradient(to right, #CB88F2 , #14A4FE);
+    height: inherit;
+    width: 100%;
+}
+.homeSliderWholeBox{
+    position: relative;
+    width: 100% !important;
+    height: 700px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.homeSliderWholeBox .homeSliderImageBox{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+   
+/* .homeSliderWholeBox #firstSlide .one{
+    position: absolute;
+    height: 250px;
+    z-index: 99;
+    animation: float 8s infinite;
+} */
+/* .homeSliderWholeBox #firstSlide .two{
+    position: absolute;
+    height: 300px;
+} */
+/* .homeSliderWholeBox #firstSlide .three{
+    position: absolute;
+    left: 10px;
+    height: 45px;
+    animation: float 6s ease-in-out infinite;
+} */
+/* .homeSliderWholeBox #firstSlide .four{
+    position: absolute;
+    right: 10px;
+    animation: float 6s ease-in-out infinite;
+} */
+/* .homeSliderWholeBox #firstSlide .five{
+    position: absolute;
+    right: 0;
+    height: 90px;
+    top: -190px;
+    animation: animName 2s linear infinite;
+} */
+/* .homeSliderWholeBox #firstSlide .six{
+    position: absolute;
+    top: 0;
+    animation: float 7s  linear infinite;
+} */
+/* .homeSliderWholeBox .homeSLiderContent{
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    text-align: center;
+}
+.homeSliderWholeBox .homeSLiderContent h4{
+    font-family: Poppins;
+    color: transparent;
+    text-align: left;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 44px;
+    padding: 0;
+    text-transform: uppercase;
+    margin: 0;
+}
+.homeSliderWholeBox .homeSLiderContent span{
+    font-family: Poppins;
+    color: transparent;
+    text-align: left;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.homeSliderWholeBox .homeSLiderContent h5{
+    font-family: Poppins;
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+} */
+
+
+
+/* SECOND SLIDE CSS */
+.homeSliderWholeBox #scdSlide .one{
+    position: absolute;
+    height: 224px;
+    z-index: 11;
+    opacity: 1;
+    visibility: visible;
+}
+.homeSliderWholeBox #scdSlide .two{
+    position: absolute;
+    height: 483px;
+}
+    /* z-index: 11; */
+    /* color: rgb(255, 255, 255); */
+    /* width: 417.293px; */
+    /* height: 187.227px; */
+    /* min-height: 0px; */
+    /* min-width: 0px; */
+    /* max-height: none; */
+    /* max-width: none; */
+    /* transform: translate(0px, 0px); */
+    /* visibility: visible; */
+    /* transform-origin: 50% 50%; */
+    /* opacity: 1; */
+/* ============================================================= */
+
+
+
+
+
 /* DEVOPS SECTION CSS =-=-=-=-=-=-=-=-=-=-=-=-=- */
 .devOpsDesBox {
     margin-top: 50px;
@@ -65,7 +216,6 @@
     text-align: center;
     font-weight: 200;
 }
-
 .smartChoiceItems {
     display: flex;
     justify-content: space-between;
@@ -137,10 +287,12 @@
 .flip_card:hover .flip_card_inner {
     transform: rotateY(180deg);
 }
+/* =============================================== */
 
 /* SERVICES SECTION CSS =-=-=-=---==== */
 .logomisAimBox {
     color: white;
+    
 }
 
 .logomisAimBox img {
@@ -157,7 +309,14 @@
 
 .servicesSection .textAnimations {
     font-size: 150px;
-    color: white
+    color: white;
+    font-family: Poppins;
+    color: transparent;
+    text-align: left;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
 }
 
 .homeServciesDes {
@@ -205,7 +364,106 @@
 
 /* -============================================ */
 
+/* CLIENT SLIDER =============================== */
+.ClientSliderSection{
+    margin-top: 50px;
+    background: #E22F2C;
+    padding: 50px 0;
+}
+.mainBoxofClientSlider{
+    text-align: center;
+    color: white;
+}
+.mainBoxofClientSlider h4{
+    font-size: 40px;
+    font-weight: 500;
+}
+.mainBoxofClientSlider span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.clientSlidingBox{
+    margin-top: 40px;
+}
+.clientSlidingBox .innerclientSlidingBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clientSlidingBox .innerclientSlidingBox img{
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+/* ============================================= */
 
+/* DEVOPS SERVICES SECTION CSS =================== */
+.devopsServicesSection{
+    margin-top: 80px;
+}
+.devopsSerHead{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+.devopsSerDes{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.devopsSerivesItem{
+    background: #E22F2C;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    border: 1px solid white;
+    height: 261px;
+    cursor: pointer;
+}
+.devopsSerivesItem:hover{
+    transition: all 1s;
+    box-shadow: -4px -2px 45px gray;
+}
+.devopsSerivesItem svg{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 27px;
+}
+.devopsSerivesItem h5{
+    font-size: 13px;
+    font-weight: 500;
+}
+.devopsSerivesItem p{
+    font-size: 10px;
+}
+/* =============================================== */
+
+
+/* PORTFOLIO SECTION HEAD CSS  =================== */
+.homePortSection{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.homePortSection .homePortHead{
+    font-size: 35px;
+    font-weight: 500;
+}
+.homePortSection .homePortDes{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+/* ================================================ */
+/* VIDEO SECTION CSS =-=-=-=-= */
+.discription{
+    color: white;
+}
+
+/* ================================================== */
 
 
 /* ========================================== */
@@ -221,6 +479,48 @@
     .smartChoiceItems .flip_card {
         width: 45%;
         margin: 20px 0;
+    }
+    .devopsSerHead{
+        font-size: 30px;
+    }
+    .devopsSerDes{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .servicesSection .textAnimations{
+        font-size: 70px;
+    }
+    .logomisAimBox h2{
+        font-size: 22px;
+    }
+    .logomisAimBox p{
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 29px;
+    }
+    .mainBoxofClientSlider span{
+        font-size: 10px !important;
+    }
+    .homeServciesDes{
+        font-size: 10px;
+        line-height: 29px;
+        letter-spacing: 1px;
+    }
+    .servicesleftBox h5{
+        font-size: 18px;
+    }
+    .clientSlidingBox .innerclientSlidingBox img{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 320px){
+    .mainBoxofClientSlider h4{
+        font-size: 29px;
+    }
+    .clientSlidingBox .innerclientSlidingBox img{
+        height: 100px;
     }
 }
 

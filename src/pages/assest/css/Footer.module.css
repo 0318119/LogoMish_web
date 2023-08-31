@@ -1,0 +1,67 @@
+#Footer_Main_Container{
+    background-color: #e22f2c;
+}
+
+.Footer_Logo{
+    width: 100%;
+    height: 90px;
+}
+
+.footer_heading{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: white;
+}
+
+.Footer_quick_header{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.Quick_links{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+
+.Quick_list{
+    line-height: 30px;
+}
+
+.Footer_about{
+    font-size: 28px;
+        font-weight: 900;
+        color: white;
+        letter-spacing: 1px;
+}
+.Footer_para{
+    color: white;
+}
+
+.MAil{
+    color: white;
+}
+.Mail_ico{
+    font-size: 24px;
+}
+.Copy_right{
+    background-color: black;
+}
+.copy_right_para{
+    color: white;
+}
+
+
+@media screen and (max-width:992px) {
+.Quick_links {
+        font-size: 14px;
+    }
+
+.Footer_para{
+        font-size: 14px;
+}
+}
