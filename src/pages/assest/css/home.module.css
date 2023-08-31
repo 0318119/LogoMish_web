@@ -1,8 +1,8 @@
-
 @font-face {
     font-family: MonumentExtended-light;
     src: url("../font/PPMonumentExtended-Light-BF645465a264007.otf");
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
@@ -157,36 +157,37 @@
 
 
 /* DEVOPS SECTION CSS =-=-=-=-=-=-=-=-=-=-=-=-=- */
-.devOpsDesBox{
+.devOpsDesBox {
     margin-top: 50px;
     margin-bottom: 20px;
     color: white;
 }
 
-.devOpsDesBox h5{
+.devOpsDesBox h5 {
     font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.devOpsDesBox p{
+.devOpsDesBox p {
     margin-top: 15px;
     font-family: 'Poppins', sans-serif !important;
     font-size: 16px;
     font-weight: 400;
 }
 
-.devOpsDesBox span{
+.devOpsDesBox span {
     font-size: 18px;
     font-weight: 400;
 }
 
-.devOpsDesBox img{
+.devOpsDesBox img {
     margin: auto;
     display: block;
     object-fit: contain;
     height: 111px;
 }
+
 /* =================================================== */
 /* SMART CHOICE SECTION CSS =-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .smartChoiceBox {
@@ -289,22 +290,24 @@
 /* =============================================== */
 
 /* SERVICES SECTION CSS =-=-=-=---==== */
-.logomisAimBox{
+.logomisAimBox {
     color: white;
     
 }
-.logomisAimBox img{
+
+.logomisAimBox img {
     width: 100%;
     object-fit: contain;
     margin: auto;
     display: block;
 }
-.logomisAimBox h2{
+
+.logomisAimBox h2 {
     font-size: 35px;
     font-weight: 400;
 }
 
-.servicesSection .textAnimations{
+.servicesSection .textAnimations {
     font-size: 150px;
     color: white;
     font-family: Poppins;
@@ -316,16 +319,17 @@
     margin: 0;
 }
 
-.homeServciesDes{
+.homeServciesDes {
     color: white;
 }
 
-.servicesTabsSection{
+.servicesTabsSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.servicesTabsSection .servicesSecInnerBox{
+
+.servicesTabsSection .servicesSecInnerBox {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -334,25 +338,30 @@
     border-bottom: 2px solid white;
     padding-bottom: 10px;
 }
-.servicesTabsSection .servicesSecInnerBox .servicesleftBox{
+
+.servicesTabsSection .servicesSecInnerBox .servicesleftBox {
     display: flex;
     align-items: center;
     width: 80%;
     margin-top: 20px;
     color: white;
-    
+
 }
-.servicesleftBox img{
+
+.servicesleftBox img {
     height: 70px;
 }
-.servicesleftBox h5{
+
+.servicesleftBox h5 {
     font-size: 40px;
     margin-left: 20px;
 }
-.servicesTabsSection .servicesSecInnerBox img.rightArrowImgServices{
+
+.servicesTabsSection .servicesSecInnerBox img.rightArrowImgServices {
     filter: invert(44%) sepia(69%) saturate(7069%) hue-rotate(2deg) brightness(103%) contrast(100%);
     height: 20px;
 }
+
 /* -============================================ */
 
 /* CLIENT SLIDER =============================== */
@@ -453,13 +462,15 @@
 
 
 /* ========================================== */
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
     .smartChoiceHead {
         font-size: 25px;
     }
+
     .smartChoiceDes {
         font-size: 14px;
     }
+
     .smartChoiceItems .flip_card {
         width: 45%;
         margin: 20px 0;
@@ -507,12 +518,117 @@
         height: 100px;
     }
 }
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 480px) {
     .smartChoiceDes {
         font-size: 14px;
     }
+
     .smartChoiceItems .flip_card {
         width: 99%;
         margin: 10px 0;
     }
 }
+
+/* The Cohort SECTION CSS =-=-=-=---==== */
+.TheCohortSection {
+    color: white;
+}
+
+.TheCohortSection img {
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+
+.TheCohortSection h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.TheCohortSection p {
+    font-size: 15px;
+}
+
+.TheCohortReadhereSection {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.TheCohortReadhereSection h1 {
+    font-size: 90px;
+    margin-top: 80px;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+
+.TheCohortReadhereSection p {
+    margin-top: 25px;
+}
+
+.TheCohortPartnershipSection h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.TheCohortPartnershipSection p{
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    word-spacing: 5px;
+   ;
+}
+
+.TheCohortParnershipSection img{
+    height: 300px;  
+}
+/* =================================================== */
+
+/* CONNECT OUR TEAM SECTION CSS =-=-=-=---==== */
+
+
+.ConnectourTeamSection{
+    color: #FFFFFF;
+}
+
+.ConnectourTeamSections h1{
+    text-align: center;
+    font-size: 75px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+
+.ConnectourTeamSection p{
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    border: none;
+    border-bottom: 1px solid white; 
+    outline: none;
+    background-color: transparent;
+    padding: 15px 0;
+    width: 100%;
+    color: #FFFFFF;
+}
+/* =================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
