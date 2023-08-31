@@ -1,0 +1,33 @@
+#Ser_Mobile_Main_header{
+    background-color: #e22f2c;
+}
+
+.Ser_Mobile_Heading{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+}
+
+.Ser_Mobile_para{
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.Ser_Mobile_btn{
+    width: 25%;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 5px;
+    color: #e22f2c;
+    border: #e22f2c;
+}
+.Ser_Mobile_btn:hover{
+    background-color: #e22f2c;
+    color: white;
+    border:1px solid white;
+}

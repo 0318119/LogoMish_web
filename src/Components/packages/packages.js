@@ -14,6 +14,9 @@ function packages() {
   return (
     <div className="container-fluid mt-4">
         <div className="row">
+            <div className="col-lg-12 p-5 d-flex justify-content-center">
+                  <h4 className={styles.Packages_Heading}>PRICING THAT GIVES VALUE TO YOUR MONEY</h4>
+            </div>
             <div className="col-lg-12">
                   <Tabs>
                       <TabList className={styles.tablist}>
@@ -26,7 +29,7 @@ function packages() {
                           <Tab className={styles.tab}>Mobile App <br /> Development</Tab>
                       </TabList>
 
-                      <TabPanel>
+                      <TabPanel className='mt-4'>
                           <Logodesign />
                       </TabPanel>
                       <TabPanel>

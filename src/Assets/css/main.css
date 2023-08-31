@@ -6,6 +6,9 @@
     background: #000 !important;
     overflow-x: clip !important;
  }
+ #root{
+   overflow-x: clip !important;
+ }
  section{
    overflow-x:  clip !important;
  }

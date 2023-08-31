@@ -1,0 +1,12 @@
+.blog_Content_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.blog_Content_heading h6{
+    font-size: 150px;
+    color: white;
+    font-weight: 900;
+    
+}
