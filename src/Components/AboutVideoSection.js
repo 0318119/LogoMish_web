@@ -1,18 +1,20 @@
 import React from 'react'
-import plot from '../pages/assest/css/home.module.css'
-import { Container } from 'react-bootstrap'
+import style from '../pages/assest/css/home.module.css'
 import About_Video from '../pages/assest/images/videos/About_Video.mp4'
 
 
 function AboutVideoSection() {
   return (
     <>
-   
-          <div className='{${plot.AboutVideoSection}}'>
-            <video src={About_Video} width="100%" height= "100%" controls />
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-12 pt-1 '>
+            <video controls width="100%" playsInline loop muted autoPlay={true}>
+              <source src={About_Video} type="video/mp4" />
+            </video>
           </div>
-        
-  
+        </div>
+      </div>
 
     </>
   )
