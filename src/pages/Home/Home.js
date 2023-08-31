@@ -11,6 +11,7 @@ import Packages from '../../components/packages/packages'
 import SmartChoice from '../../components/SmartChoice'
 import VideoCom from '../../components/VideoCom'
 import TheCohort from '../../components/TheCohort'
+import ConnectourTeam from '../../components/ConnectourTeam'
 
 function Home() {
   return (
@@ -26,6 +27,7 @@ function Home() {
       <HomePort />
       <VideoCom />
       <TheCohort />
+      <ConnectourTeam />
       <Footer />
     </>
   )
