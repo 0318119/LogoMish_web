@@ -1,0 +1,60 @@
+.web_design_header{
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.web_design_para{
+    margin-top: 5px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 12px;
+
+}
+
+.web_design_btn{
+    width: 25%;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer; 
+    background-color: #e22f2c;
+    color: white;
+}
+.web_design_btn:hover{
+    border: 1px solid #e22f2c;
+    background: transparent;
+    color: #e22f2c;
+}
+
+.web_design_header2 {
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.web_design_para2 {
+    margin-top: 5px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 12px;
+
+}
+
+.web_design_btn2 {
+    width: 25%;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #e22f2c;
+    color: white;
+}
+
+.web_design_btn2:hover {
+    border: 1px solid #e22f2c;
+    background: transparent;
+    color: #e22f2c;
+}

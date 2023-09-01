@@ -6,13 +6,18 @@
     flex-wrap: wrap;
 
 }
+.Packages_Heading{
+    color: white;
+    font-weight: 800;
+    font-size: 34px;
+}
 
 .tab{
     color: white;
     background-color: transparent;
     border: none;
-    font-size: 16px;
-    padding: 5px;
+    font-size: 13px;
+    padding: 8px;
 }
 .tab:hover{
     color: #e22f2c;
