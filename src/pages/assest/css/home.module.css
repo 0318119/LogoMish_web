@@ -47,7 +47,6 @@
 .homeSliderWholeBox .homeSliderBox{
     height: inherit;
     position: absolute;
-    /* background: red; */
     width: 50%;
     justify-content: center;
     display: flex;
@@ -83,6 +82,22 @@
     object-fit: contain;
     height: 45px;
 }
+#firstSlide .five{
+    position: absolute;
+    top: 17%;
+    object-fit: contain;
+    opacity: 1;
+    right: 0;
+    height: 90px;
+    animation: animName 10s infinite;
+}
+#firstSlide .six{
+    position: absolute;
+    top: 22%;
+    object-fit: contain;
+    opacity: 0.4;
+    animation: float 10s infinite;
+}
 #firstSlide .blinkerOne{
     position: absolute;
     top: 26%;
@@ -107,50 +122,24 @@
     height: 45px;
     animation: blinker 1.2s infinite;
 }
-/* .homeSliderWholeBox .homeSliderBox */
-/* .homeSliderWholeBox #firstSlide .one{
-    position: absolute;
-    height: 250px;
-    z-index: 99;
-    animation: float 8s infinite;
-} */
-/* .homeSliderWholeBox #firstSlide .two{
-    position: absolute;
-    height: 300px;
-} */
-/* .homeSliderWholeBox #firstSlide .three{
-    position: absolute;
-    left: 10px;
-    height: 45px;
-    animation: float 6s ease-in-out infinite;
-} */
-/* .homeSliderWholeBox #firstSlide .four{
-    position: absolute;
-    right: 10px;
-    animation: float 6s ease-in-out infinite;
-} */
-/* .homeSliderWholeBox #firstSlide .five{
-    position: absolute;
-    right: 0;
-    height: 90px;
-    top: -190px;
-    animation: animName 2s linear infinite;
-} */
-/* .homeSliderWholeBox #firstSlide .six{
-    position: absolute;
-    top: 0;
-    animation: float 7s  linear infinite;
-} */
-/* .homeSliderWholeBox .homeSLiderContent{
-    position: absolute;
-    bottom: 0;
-    width: 70%;
-    text-align: center;
+.contentBox1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    z-index: 999;
+    width: 100%;
+    position: relative;
+    top: -8%;
+    height: inherit;
 }
-.homeSliderWholeBox .homeSLiderContent h4{
+.contentBox1 .contentBox1FlexTagline{
+    display: flex;
+    width: 50%;
+}
+.contentBox1 .contentBox1FlexTagline .tagLine{
     font-family: Poppins;
     color: transparent;
-    text-align: left;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-weight: 800;
     font-size: 44px;
@@ -158,52 +147,57 @@
     text-transform: uppercase;
     margin: 0;
 }
-.homeSliderWholeBox .homeSLiderContent span{
-    font-family: Poppins;
-    color: transparent;
-    text-align: left;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    font-weight: 800;
-    font-size: 100px;
-    line-height: 1;
-    text-transform: uppercase;
-}
-.homeSliderWholeBox .homeSLiderContent h5{
+.contentBox1 .contentBox1FlexTagline .text{
     font-family: Poppins;
     color: transparent;
     text-align: center;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     font-weight: 800;
-    font-size: 60px;
+    font-size: 74px;
+    padding: 0;
     text-transform: uppercase;
-} */
-
+    line-height: 89px;
+}
 
 
 /* SECOND SLIDE CSS */
+.homeSliderWholeBox #scdSlide .multipleImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
 .homeSliderWholeBox #scdSlide .one{
+    height: 170px;
+    object-fit: contain;
     position: absolute;
-    height: 224px;
-    z-index: 11;
-    opacity: 1;
-    visibility: visible;
+    top: 20%;
+    right: 128px;
 }
 .homeSliderWholeBox #scdSlide .two{
     position: absolute;
-    height: 483px;
+    height: 540px;
+    object-fit: contain;
 }
-    /* z-index: 11; */
-    /* color: rgb(255, 255, 255); */
-    /* width: 417.293px; */
-    /* height: 187.227px; */
-    /* min-height: 0px; */
-    /* min-width: 0px; */
-    /* max-height: none; */
-    /* max-width: none; */
-    /* transform: translate(0px, 0px); */
-    /* visibility: visible; */
-    /* transform-origin: 50% 50%; */
-    /* opacity: 1; */
+.homeSliderWholeBox #scdSlide .three{
+    height: 170px;
+    object-fit: contain;
+    position: absolute;
+    top: 20%;
+    right: 128px;
+    z-index: 99;
+}
+.homeSliderWholeBox #scdSlide .four{
+    top: 39px;
+    position: absolute;
+    z-index: 0;
+    height: 200px;
+    object-fit: contain;
+}
+.homeSliderWholeBox #scdSlide .five{
+
+}
 /* ============================================================= */
 
 
@@ -521,7 +515,50 @@
 
 
 /* ========================================== */
+@media screen and (max-width:1330px){
+    .contentBox1 .contentBox1FlexTagline{
+        justify-content: center;
+    }
+    .contentBox1{
+        top: -116px;
+    }
+    .contentBox1 .contentBox1FlexTagline .tagLine{
+        font-size: 39px;
+    }
+    .contentBox1 .contentBox1FlexTagline .text{
+        font-size: 54px;
+        line-height: 61px;
+    }
+}
 @media screen and (max-width: 992px) {
+    .homeSliderWholeBox{
+        height: 520px;
+    }
+    .contentBox1 .contentBox1FlexTagline{
+        width: 75%;
+    }
+    .contentBox1{
+        top: -5%;
+    }
+    #firstSlide .five{
+        top: 15%;
+        height: 60px;
+    }
+    #firstSlide .one{
+        height: 240px;
+        top: 19%;
+    }
+    #firstSlide .two{
+        height: 290px;
+        width: 100%;
+        top: -28%;
+    }
+    #firstSlide .six{
+        height: 386px;
+    }
+    .homeSliderWholeBox .homeSliderBox{
+        width: 80%;
+    }
     .smartChoiceHead {
         font-size: 25px;
     }
@@ -541,7 +578,6 @@
         font-size: 10px;
     }
 }
-
 @media screen and (max-width: 580px){
     .servicesSection .textAnimations{
         font-size: 70px;
@@ -569,16 +605,33 @@
         height: 70px;
     }
 }
-@media screen and (max-width: 320px){
-    .mainBoxofClientSlider h4{
-        font-size: 29px;
-    }
-    .clientSlidingBox .innerclientSlidingBox img{
-        height: 100px;
-    }
-}
-
 @media screen and (max-width: 480px) {
+    .homeSliderWholeBox .homeSliderBox{
+        width: 100%;
+    }
+    #firstSlide .two{
+        height: 205px;
+        width: 100%;
+        top: -13%;
+    }
+    #firstSlide .one{
+        height: 150px;
+        width: 100%;
+        top: 19%;
+    }
+    .contentBox1 .contentBox1FlexTagline{
+        width: 99% !important;
+    }
+    .contentBox1{
+        top: -14%;
+    }
+    .contentBox1 .contentBox1FlexTagline .text{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    #firstSlide .six{
+        height: 280px;
+    }
     .smartChoiceDes {
         font-size: 14px;
     }
@@ -586,6 +639,14 @@
     .smartChoiceItems .flip_card {
         width: 99%;
         margin: 10px 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .mainBoxofClientSlider h4{
+        font-size: 29px;
+    }
+    .clientSlidingBox .innerclientSlidingBox img{
+        height: 100px;
     }
 }
 
