@@ -1,0 +1,30 @@
+.disp{
+    color: #fff;
+
+}
+.disp h4{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    margin-top: 80px;
+    word-spacing: 10px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+
+}
+h4:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 35%;
+    border: 1px solid #fff;
+    margin-top: 8px; }
+    
+ .disp p{
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+ } 

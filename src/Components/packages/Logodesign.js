@@ -152,7 +152,7 @@ function Logodesign() {
                                 <li> <CheckTick className={styles.CheckTick} />4 Dedicated Designers</li>
                                 <li> <CheckTick className={styles.CheckTick} />9 Revisions (Additional Revision Per Change $30)</li>
                                 <li> <CheckTick className={styles.CheckTick} />48-72 Hours Turn Around Time</li>
-                                <li> <CheckTick className={styles.CheckTick} />Final Files (JPEG, PNG, PDF)</li>
+                                <li> <CheckTick className={styles.CheckTick} />Final Files (AI, PSD, EPS, JPEG, PNG, PDF, SVG)</li>
                                 <li> <CheckTick className={styles.CheckTick} />Dedicated Project Manager</li>
                                 <li> <CheckTick className={styles.CheckTick} />100% Unique Concepts</li>
                                 <li> <CheckTick className={styles.CheckTick} />100% Approval Assurance</li>

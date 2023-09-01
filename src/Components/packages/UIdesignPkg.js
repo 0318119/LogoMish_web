@@ -13,8 +13,8 @@ function UIdesignPkg() {
                         <div className={styles.Package_header}>
                             <img src={PackageLogo} alt="" className={styles.PackageLogo} />
                             <span className='d-flex flex-column align-items-end p-2'>
-                                <h3 className={styles.logo_design_price}>$199.00</h3>
-                                <p className={styles.logo_design_para}>UI Design</p>
+                                <h3 className={styles.logo_design_price}>$1499.00</h3>
+                                <p className={styles.logo_design_para}>Basic UI Design Package</p>
                             </span>
                         </div>
                         <div className='p-2 d-flex justify-content-center'>
@@ -22,14 +22,11 @@ function UIdesignPkg() {
                         </div>
                         <div className='p-3'>
                             <ul className={styles.detaillist}>
-                                <li > <CheckTick className={styles.CheckTick} />1-Page Website</li>
-                                <li> <CheckTick className={styles.CheckTick} />Customized Design (basic)</li>
-                                <li> <CheckTick className={styles.CheckTick} />WordPress</li>
-                                <li> <CheckTick className={styles.CheckTick} />Contact Form</li>
-                                <li> <CheckTick className={styles.CheckTick} />1 Banner Design (basic)</li>
-                                <li> <CheckTick className={styles.CheckTick} />3 Revisions</li>
-                                <li> <CheckTick className={styles.CheckTick} />Dedicated Project Manager</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Satisfaction Guarantee</li>
+                                <li > <CheckTick className={styles.CheckTick} />Homepage design</li>
+                                <li> <CheckTick className={styles.CheckTick} />Up to 5 additional pages</li>
+                                <li> <CheckTick className={styles.CheckTick} />Basic layout and design elements</li>
+                                <li> <CheckTick className={styles.CheckTick} />Typography</li>
+                                <li> <CheckTick className={styles.CheckTick} />Color scheme</li>
                             </ul>
                         </div>
                         <div className='p-3 d-flex justify-content-center'>
@@ -53,8 +50,8 @@ function UIdesignPkg() {
                         <div className={styles.Package_header}>
                             <img src={PackageLogo} alt="" className={styles.PackageLogo} />
                             <span className='d-flex flex-column align-items-end p-2'>
-                                <h3 className={styles.logo_design_price}>$399.00</h3>
-                                <p className={styles.logo_design_para}>Standard Website Package</p>
+                                <h3 className={styles.logo_design_price}>$1999.00</h3>
+                                <p className={styles.logo_design_para}>Advanced UI Design Package</p>
                             </span>
                         </div>
                         <div className='p-2 d-flex justify-content-center'>
@@ -62,18 +59,13 @@ function UIdesignPkg() {
                         </div>
                         <div className='p-3'>
                             <ul className={styles.detaillist}>
-                                <li > <CheckTick className={styles.CheckTick} />Up to 3-Page Website</li>
-                                <li> <CheckTick className={styles.CheckTick} />Customized Design (Standard)</li>
-                                <li> <CheckTick className={styles.CheckTick} />WordPress</li>
-                                <li> <CheckTick className={styles.CheckTick} />Mobile Responsive</li>
-                                <li> <CheckTick className={styles.CheckTick} />Hover Effects</li>
-                                <li> <CheckTick className={styles.CheckTick} />3 Banner Design (Standard)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Stock Photos</li>
-                                <li> <CheckTick className={styles.CheckTick} />Contact Form</li>
-                                <li> <CheckTick className={styles.CheckTick} />6 Revisions</li>
-                                <li> <CheckTick className={styles.CheckTick} />Complete Design and Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Dedicated Project Manager</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Satisfaction Guarantee</li>
+                                <li > <CheckTick className={styles.CheckTick} />Homepage design</li>
+                                <li> <CheckTick className={styles.CheckTick} />Up to 10 additional pages</li>
+                                <li> <CheckTick className={styles.CheckTick} />More complex design elements</li>
+                                <li> <CheckTick className={styles.CheckTick} />Illustrations</li>
+                                <li> <CheckTick className={styles.CheckTick} />Animations</li>
+                                <li> <CheckTick className={styles.CheckTick} />Interactive features</li>
+                                <li> <CheckTick className={styles.CheckTick} />Iconography and graphic design</li>
                             </ul>
                         </div>
                         <div className='p-3 d-flex justify-content-center'>
@@ -97,8 +89,8 @@ function UIdesignPkg() {
                         <div className={styles.Package_header}>
                             <img src={PackageLogo} alt="" className={styles.PackageLogo} />
                             <span className='d-flex flex-column align-items-end p-2'>
-                                <h3 className={styles.logo_design_price}>$749.00</h3>
-                                <p className={styles.logo_design_para}>Professional Website Package</p>
+                                <h3 className={styles.logo_design_price}>$2999.00</h3>
+                                <p className={styles.logo_design_para}>E-Commerce Design Package</p>
                             </span>
                         </div>
                         <div className='p-2 d-flex justify-content-center'>
@@ -107,22 +99,12 @@ function UIdesignPkg() {
 
                         <div className='p-3'>
                             <ul className={styles.detaillist}>
-                                <li > <CheckTick className={styles.CheckTick} />Up to 5-Page Website</li>
-                                <li> <CheckTick className={styles.CheckTick} />Customized Design (Professional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />WordPress</li>
-                                <li> <CheckTick className={styles.CheckTick} />CMS (Content Management System)</li>
-                                <li> <CheckTick className={styles.CheckTick} />5 Banner Design (Professional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Sliding Banners</li>
-                                <li> <CheckTick className={styles.CheckTick} />Hover Effects</li>
-                                <li> <CheckTick className={styles.CheckTick} />Mobile Responsive</li>
-                                <li> <CheckTick className={styles.CheckTick} />Stock Photos</li>
-                                <li> <CheckTick className={styles.CheckTick} />Contact Form</li>
-                                <li> <CheckTick className={styles.CheckTick} />Search Engine Submission</li>
-                                <li> <CheckTick className={styles.CheckTick} />9 Revisions</li>
-                                <li> <CheckTick className={styles.CheckTick} />Complete Design and Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Dedicated Project Manager</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Satisfaction Guarantee</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Ownership Rights</li>
+                                <li > <CheckTick className={styles.CheckTick} />Homepage design</li>
+                                <li> <CheckTick className={styles.CheckTick} />Up to 20 additional pages</li>
+                                <li> <CheckTick className={styles.CheckTick} />Shopping cart design</li>
+                                <li> <CheckTick className={styles.CheckTick} />Product page design</li>
+                                <li> <CheckTick className={styles.CheckTick} />Checkout process design</li>
+                                <li> <CheckTick className={styles.CheckTick} />Custom graphic design for promotional materials</li>
                             </ul>
                         </div>
                         <div className='p-3 d-flex justify-content-center'>
@@ -147,8 +129,8 @@ function UIdesignPkg() {
                         <div className={styles.Package_header}>
                             <img src={PackageLogo} alt="" className={styles.PackageLogo} />
                             <span className='d-flex flex-column align-items-end p-2'>
-                                <h3 className={styles.logo_design_price}>$1399.00</h3>
-                                <p className={styles.logo_design_para}>Basic Website Package</p>
+                                <h3 className={styles.logo_design_price}>$3499.00</h3>
+                                <p className={styles.logo_design_para}>Responsive Design Package</p>
                             </span>
                         </div>
                         <div className='p-2 d-flex justify-content-center'>
@@ -156,32 +138,10 @@ function UIdesignPkg() {
                         </div>
                         <div className='p-3'>
                             <ul className={styles.detaillist}>
-                                <li> <CheckTick className={styles.CheckTick} />Up to 7-Page Website (Unique)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Custom WordPress Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Stock Images</li>
-                                <li> <CheckTick className={styles.CheckTick} />7 Banner Designs (Custom)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Sliding Banners</li>
-                                <li> <CheckTick className={styles.CheckTick} />Hover Effects</li>
-                                <li> <CheckTick className={styles.CheckTick} />Content Management System</li>
-                                <li> <CheckTick className={styles.CheckTick} />Online Appointment/Booking/Scheduling Integration</li>
-                                <li> <CheckTick className={styles.CheckTick} />Search Engine Submission</li>
-                                <li> <CheckTick className={styles.CheckTick} />12 Revisions</li>
-                                <li> <CheckTick className={styles.CheckTick} />Complete Design and Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Stock Images</li>
-                                <li> <CheckTick className={styles.CheckTick} />Interactive Hover Effects</li>
-                                <li> <CheckTick className={styles.CheckTick} />18 Revisions</li>
-                                <li> <CheckTick className={styles.CheckTick} />Content Management System (WordPress)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Online Appointment/Booking/Scheduling Integration (Optional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Online Payment Integration (Optional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Custom Contact Form (Optional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Newsletter Sign up (Optional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Social Media Integration</li>
-                                <li> <CheckTick className={styles.CheckTick} />Search Bar</li>
-                                <li> <CheckTick className={styles.CheckTick} />Google Friendly Sitemap</li>
-                                <li> <CheckTick className={styles.CheckTick} />Complete Design and Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Dedicated Project Manager</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Satisfaction Guarantee</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Ownership Rights</li>
+                                <li> <CheckTick className={styles.CheckTick} />Homepage design</li>
+                                <li> <CheckTick className={styles.CheckTick} />Up to 10 additional pages</li>
+                                <li> <CheckTick className={styles.CheckTick} />Optimized for all devices, including desktops, tablets, and mobile phones</li>
+                                <li> <CheckTick className={styles.CheckTick} />Touch-friendly interfaces and larger fonts for easier reading on smaller screens</li>
                             </ul>
                         </div>
                         <div className='p-3 d-flex justify-content-center'>
@@ -205,8 +165,8 @@ function UIdesignPkg() {
                         <div className={styles.Package_header}>
                             <img src={PackageLogo} alt="" className={styles.PackageLogo} />
                             <span className='d-flex flex-column align-items-end p-2'>
-                                <h3 className={styles.logo_design_price}>$1749.00</h3>
-                                <p className={styles.logo_design_para}>Exclusive Web Package</p>
+                                <h3 className={styles.logo_design_price}>$5999.00</h3>
+                                <p className={styles.logo_design_para}>Custom Design Package</p>
                             </span>
                         </div>
                         <div className='p-2 d-flex justify-content-center'>
@@ -214,22 +174,13 @@ function UIdesignPkg() {
                         </div>
                         <div className='p-3'>
                             <ul className={styles.detaillist}>
-                                <li > <CheckTick className={styles.CheckTick} />Up to 10-Page Website (Unique)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Custom, Dynamic, and Interactive Design</li>
-                                <li> <CheckTick className={styles.CheckTick} />Custom WordPress Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Captivating Sliding Banners</li>
-                                <li> <CheckTick className={styles.CheckTick} />Stock Images</li>
-                                <li> <CheckTick className={styles.CheckTick} />10 Banner Design (Custom)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Interactive Hover Effects</li>
-                                <li> <CheckTick className={styles.CheckTick} />15 Revisions</li>
-                                <li> <CheckTick className={styles.CheckTick} />Content Management System (WordPress)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Online Appointment/Booking/Scheduling Integration</li>
-                                <li> <CheckTick className={styles.CheckTick} />Google Friendly Sitemap</li>
-                                <li> <CheckTick className={styles.CheckTick} />Search Engine Submission</li>
-                                <li> <CheckTick className={styles.CheckTick} />Complete Design and Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Dedicated Project Manager</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Satisfaction Guarantee</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Ownership Rights</li>
+                                <li > <CheckTick className={styles.CheckTick} />Completely tailored to the client’s specific needs</li>
+                                <li> <CheckTick className={styles.CheckTick} />Can include any combination of design elements, from basic to advanced</li>
+                                <li> <CheckTick className={styles.CheckTick} />Customizable for any type of website or web application</li>
+                                <li> <CheckTick className={styles.CheckTick} />Illustrations</li>
+                                <li> <CheckTick className={styles.CheckTick} />Animations</li>
+                                <li> <CheckTick className={styles.CheckTick} />Interactive features</li>
+                                <li> <CheckTick className={styles.CheckTick} />Iconography and graphic design</li>
                             </ul>
                         </div>
                         <div className='p-3 d-flex justify-content-center'>
@@ -253,8 +204,8 @@ function UIdesignPkg() {
                         <div className={styles.Package_header}>
                             <img src={PackageLogo} alt="" className={styles.PackageLogo} />
                             <span className='d-flex flex-column align-items-end p-2'>
-                                <h3 className={styles.logo_design_price}>$3199.00</h3>
-                                <p className={styles.logo_design_para}>Professional Website Package</p>
+                                <h3 className={styles.logo_design_price}>$3499.00</h3>
+                                <p className={styles.logo_design_para}>Application UI/UX Design Package</p>
                             </span>
                         </div>
                         <div className='p-2 d-flex justify-content-center'>
@@ -263,27 +214,13 @@ function UIdesignPkg() {
 
                         <div className='p-3'>
                             <ul className={styles.detaillist}>
-                                <li > <CheckTick className={styles.CheckTick} />10-20-Page Website (Unique)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Custom, Dynamic, and High-end Design</li>
-                                <li> <CheckTick className={styles.CheckTick} />Custom WordPress Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Attractive Sliding Banners</li>
-                                <li> <CheckTick className={styles.CheckTick} />Up to 20 Custom Banner Design</li>
-                                <li> <CheckTick className={styles.CheckTick} />Stock Images</li>
-                                <li> <CheckTick className={styles.CheckTick} />Interactive Hover Effects</li>
-                                <li> <CheckTick className={styles.CheckTick} />18 Revisions</li>
-                                <li> <CheckTick className={styles.CheckTick} />Content Management System (WordPress)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Online Appointment/Booking/Scheduling Integration (Optional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Online Payment Integration (Optional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Custom Contact Form (Optional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Newsletter Sign up (Optional)</li>
-                                <li> <CheckTick className={styles.CheckTick} />Social Media Integration</li>
-                                <li> <CheckTick className={styles.CheckTick} />Search Bar</li>
-                                <li> <CheckTick className={styles.CheckTick} />Google Friendly Sitemap</li>
-                                <li> <CheckTick className={styles.CheckTick} />Search Engine Submission</li>
-                                <li> <CheckTick className={styles.CheckTick} />Complete Design and Development</li>
-                                <li> <CheckTick className={styles.CheckTick} />Dedicated Project Manager</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Satisfaction Guaranteer</li>
-                                <li> <CheckTick className={styles.CheckTick} />100% Ownership Rights</li>
+                                <li > <CheckTick className={styles.CheckTick} />Design for the application’s main screen</li>
+                                <li> <CheckTick className={styles.CheckTick} />Up to 5 additional screens</li>
+                                <li> <CheckTick className={styles.CheckTick} />Custom layout and design elements, such as typography, color scheme, and graphics</li>
+                                <li> <CheckTick className={styles.CheckTick} />Custom iconography, graphic design, and branding</li>
+                                <li> <CheckTick className={styles.CheckTick} />Design for user interface (UI) elements, such as buttons, menus, and forms</li>
+                                <li> <CheckTick className={styles.CheckTick} />User experience (UX) design, including user flow diagrams and wireframes</li>
+                               
                             </ul>
                         </div>
                         <div className='p-3 d-flex justify-content-center'>
@@ -301,6 +238,88 @@ function UIdesignPkg() {
                         </div>
                     </div>
                 </div>
+
+                <div className="col-lg-4">
+                    <div className={styles.logo_design_bronze}>
+                        <div className={styles.Package_header}>
+                            <img src={PackageLogo} alt="" className={styles.PackageLogo} />
+                            <span className='d-flex flex-column align-items-end p-2'>
+                                <h3 className={styles.logo_design_price}>$6499.00</h3>
+                                <p className={styles.logo_design_para}>Advanced Application UI/UX Design Package</p>
+                            </span>
+                        </div>
+                        <div className='p-2 d-flex justify-content-center'>
+                            <button className={styles.Logo_design_order_btn}>Order Now</button>
+                        </div>
+
+                        <div className='p-3'>
+                            <ul className={styles.detaillist}>
+                                <li > <CheckTick className={styles.CheckTick} />Design for the application’s main screen</li>
+                                <li> <CheckTick className={styles.CheckTick} />Up to 10 additional screens</li>
+                                <li> <CheckTick className={styles.CheckTick} />More complex design elements, such as custom illustrations, animations, and interactive features</li>
+                                <li> <CheckTick className={styles.CheckTick} />Custom iconography, graphic design, and branding</li>
+                                <li> <CheckTick className={styles.CheckTick} />Design for user interface (UI) elements, such as buttons, menus, and forms</li>
+                                <li> <CheckTick className={styles.CheckTick} />User experience (UX) design, including user flow diagrams and wireframes</li>
+                                <li> <CheckTick className={styles.CheckTick} />Customized user research and user testing to optimize the design</li>
+                            </ul>
+                        </div>
+                        <div className='p-3 d-flex justify-content-center'>
+                            <span className='d-flex align-items-center' id={styles.contactBreak}>
+                                <ContactIcon className={styles.ContactIcon} />
+                                <span className={styles.Contact_para}>Speak with  us <br />
+                                    +1786 305 7080
+                                </span>
+                            </span>
+                            <span className='d-flex align-items-center'>
+                                <span className={styles.Contact_para}>Want to discuss? <br />
+                                    Live Chat Now
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-lg-4">
+                    <div className={styles.logo_design_bronze}>
+                        <div className={styles.Package_header}>
+                            <img src={PackageLogo} alt="" className={styles.PackageLogo} />
+                            <span className='d-flex flex-column align-items-end p-2'>
+                                <h3 className={styles.logo_design_price}>$7499.00</h3>
+                                <p className={styles.logo_design_para}>E-Commerce Application Design Package</p>
+                            </span>
+                        </div>
+                        <div className='p-2 d-flex justify-content-center'>
+                            <button className={styles.Logo_design_order_btn}>Order Now</button>
+                        </div>
+
+                        <div className='p-3'>
+                            <ul className={styles.detaillist}>
+                                <li > <CheckTick className={styles.CheckTick} />Design for the application’s main screen, plus up to 20 additional screens</li>
+                                <li> <CheckTick className={styles.CheckTick} />Shopping cart design, product page design, and checkout process design</li>
+                                <li> <CheckTick className={styles.CheckTick} />Custom layout and design elements, such as typography, color scheme, and graphics</li>
+                                <li> <CheckTick className={styles.CheckTick} />Custom graphic design for promotional materials</li>
+                                <li> <CheckTick className={styles.CheckTick} />Custom iconography, graphic design, and branding</li>
+                                <li> <CheckTick className={styles.CheckTick} />Design for user interface (UI) elements, such as buttons, menus, and forms</li>
+                                <li> <CheckTick className={styles.CheckTick} />User experience (UX) design, including user flow diagrams and wireframes</li>
+                                <li> <CheckTick className={styles.CheckTick} />Customized user research and user testing to optimize the design</li>
+                            </ul>
+                        </div>
+                        <div className='p-3 d-flex justify-content-center'>
+                            <span className='d-flex align-items-center' id={styles.contactBreak}>
+                                <ContactIcon className={styles.ContactIcon} />
+                                <span className={styles.Contact_para}>Speak with  us <br />
+                                    +1786 305 7080
+                                </span>
+                            </span>
+                            <span className='d-flex align-items-center'>
+                                <span className={styles.Contact_para}>Want to discuss? <br />
+                                    Live Chat Now
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
