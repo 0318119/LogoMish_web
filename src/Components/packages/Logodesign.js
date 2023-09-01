@@ -208,6 +208,7 @@ function Logodesign() {
                                 <ContactIcon className={styles.ContactIcon} />
                                 <span className={styles.Contact_para}>Speak with  us <br />
                                     +1786 305 7080
+                                    {/* +1786 305 7080 */}
                                 </span>
                             </span>
                             <span className='d-flex align-items-center'>
