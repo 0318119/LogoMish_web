@@ -1,5 +1,4 @@
 import React from 'react'
-import style from '../pages/assest/css/home.module.css'
 import About_Video from '../pages/assest/images/videos/About_Video.mp4'
 
 

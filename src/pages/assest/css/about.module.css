@@ -1,356 +1,228 @@
+
 @font-face {
     font-family: MonumentExtended-light;
     src: url("../font/PPMonumentExtended-Light-BF645465a264007.otf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* AboutVideo SECTION CSS =-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-
-
-
-/* =================================================== */
-
-/* Promo SECTION CSS =-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-.Promoupper{
+  /*  Promo Section */
+  .Promouph4 {
     color: white;
-    text-align: center;
-    margin-top: 60px;
-}
-
-.Promoupper h2{
-    font-size: 70px;
+    margin-top: 40px;
+    padding: 25px;
+    font-size:60px;
     font-weight: bold;
-}
-
-.Promoupper p{
-    margin-top: 15px;
-    word-spacing: 5px;
-    font-size: 15px;
-}
-
-.Promodown{
-    color: white;
     text-align: center;
-    margin-top: 80px;
-}
-
-.Promodown h2{
-    font-size: 75px;
-    font-weight: bold ;
-}
-
-.Promodown p{
-    margin-top: 15px;
-    word-spacing: 5px;
+  }
+ 
+  .Promoupspan {
+    text-align: center;
+    color: white;
     font-size: 15px;
+    word-spacing: 5px;
+  }
+ 
+  .Promodownh5 {
+    color: white;
+    margin-top:80px;
+    padding: 25px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .Promodownspan{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+  }
+
+  .Promoboxes{
+    color: white;
+    margin: 40px;
+    padding: 15px;
+    width: 100%;
+    background-color: red;
+    transition: all 1s;
+    border: 1px solid white;
+  }
+
+  .Promoboxes:hover{
+    box-shadow: -4px -2px 50px gray;
+  }
+  
+  .Promoboxes h6{
+    font-size: 30px;
+  }
+
+  .Promoboxes p{
+    margin-top: 8px;
+  }
+/* ============================================================= */
+
+/* Echo Section */
+
+.Echoh5{
+    color: white;
+    margin-top:80px;
+    padding: 25px;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
 }
 
-.Promoboxes{
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin-top: 20px;
+.Echospan{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.EchoCart1{
+    color: white;
+    width: 100%;
+    background-color: red;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 30px 20px;
+    margin: 10px auto;
+}
+
+.EchoCarth51{
+    font-size: 35px;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+}
+
+.EchoCartp1{
+    font-family: MonumentExtended-light;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+.EchoCart2{
+    color: white;
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 30px 20px;
+    margin: 10px auto;
+}
+
+.EchoCart3{
+    color: white;
+    width: 100%;
+    background-color: red;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 30px 20px;
+    margin: 10px auto;
+}
+
+/* WeDon't Section */
+
+.WeDonth5{
+    color: white;
+    margin-top:80px;
+    padding: 25px;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
     
 }
 
-.Promoboxes1{
-    width: 35%;
-    height: 167px;
-    padding: 15px;
+.WeDont1{
+    color: white;
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 30px 20px;
+    margin: 10px auto;
+    line-height: 20px;
+}
+
+.WeDonth51{
+    font-size: 35px;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+}
+
+.WeDontp1{
+    font-size: 15px;
+    word-spacing: 5px;
+    font-family: MonumentExtended-light;
+}
+
+.WeDont2{
+    color: white;
+    width: 100%;
     background-color: red;
-    border: 1px solid white;
-    margin: 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 30px 20px;
+    margin: 10px auto;
+    line-height: 22px;
 }
 
-.Promoboxes1:hover{
-    box-shadow: -4px -2px 45px gray;
-}
-
-
-
-.Promoboxes1 h4{
-    font-size: 45px;
-}
-
-.Promoboxes1 p{
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-.Promoboxes2{
-    width: 34%;
-    height: 167px;
-    padding: 15px;
-    background-color: red;
-    border: 1px solid white;
-    margin: 10px;
-}
-
-.Promoboxes2:hover{
-    box-shadow: -4px -2px 40px gray;
+.WeDont3{
+    color: white;
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 30px 20px;
+    margin: 10px auto;
+    line-height: 38px;
 }
 
 
-.Promoboxes2 h4{
-    font-size: 45px;
-}
+/* ============================================================= */
 
-.Promoboxes2 p{
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-
-.Promoboxes3{
-    width: 34%;
-    height: 200px;
-    padding: 15px;
-    background-color: red;
-    border: 1px solid white;
-    margin: 10px;
-    
-}
-
-.Promoboxes3:hover{
-    box-shadow: -4px -2px 40px gray;
-}
-
-
-.Promoboxes3 h4{
-    font-size: 45px;
-}
-
-.Promoboxes3 p{
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-.Promoboxes4{
-    width: 34%;
-    height: 167px;
-    padding: 15px;
-    background-color: red;
-    border: 1px solid white;
-}
-
-.Promoboxes4:hover{
-    box-shadow: -4px -2px 40px gray;
-}
-
-
-.Promoboxes4 h4{
-    font-size: 45px;
-}
-
-.Promoboxes4 p{
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-.Promoboxes5{
-    width: 34%;
-    height: 167px;
-    padding: 15px;
-    background-color: red;
-    border: 1px solid white;
-    margin: 10px;
-}
-
-.Promoboxes5 h4{
-    font-size: 45px;
-}
-
-.Promoboxes5 p{
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-.Promoboxes5:hover{
-    box-shadow: -4px -2px 40px gray;
-}
-
-
-@media screen and (max: 992px) {
-    .Promoupper p{
-        font-size: 13px;
-    }
-
-    .Promodown h2{
+/* ============================================================= */
+@media screen and (max-width: 992px) {
+    .Promodownh5 {
         font-size: 50px;
     }
-
-    .Promodown p{
-        font-size: 13px;
+    .Promoboxes{
+        width: auto;
+        margin: 10px 5px;
     }
-   
+    .Echoh5{
+    font-size: 50px;
+    }
+
+  }
+
+@media screen and (max-width: 768px) { 
+    .Promodownh5 {
+        font-size: 38px;
+    }
 }
-
-
-/* =================================================== */
-
-/* Echo SECTION CSS =-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-.Echooupper{
-    color: white;
-    text-align: center;
-    margin: 60px;
+@media screen and (max-width: 575px){
+    .Promodownh5 {
+        font-size: 30px;
+    }
 }
-
-
-.Echooupper h2{
-    font-size: 70px;
-    font-weight: bold;
-}
-
-.Echooupper p{
-    margin-top: 15px;
-    word-spacing: 5px;
-    font-size: 15px;
-}
-
-.EchoCarts{
-    display: flex;
-    color: white;
-    margin-top: 30px;
-    width: 100%;
-    height: 450px;      
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-
-.EchoCarts1{
-    background-color:#E22F2C ;
-    
-}
-
-.EchoCarts2{
-    border: 1px solid white;
-}
-
-.EchoCarts3{
-    background-color:#E22F2C ;
- 
-}
-
-.EchoCartshead h4{
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 50px;
-}
-
-.EchoCartsp p{
-    font-size: 15px;
-    margin-top: 25px;
-}
-
-@media screen and (max-width:992px) {
-    
-    .EchoCarts{
-        margin-top: 30px;
-        width: 100%;
-        height: 450px;      
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
+@media screen and (max-width: 480px){
+    .Promouph4{
+        font-size: 35px;
+    }
+    .Promodownspan{
+        font-size: 12px;
+    }
+    .Promodownh5 {
+        font-size: 24px;
+    }
+    .Promoupspan {
+        font-size: 12px;
+    }
+    .Echoh5{
+        font-size: 30px;
+    }
+    .EchoCarth51{
+        font-size: 25px;
     }
 }
 
-/* =================================================== */
 
-/* WeDont SECTION CSS =-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-.WeDontupper{
-    color: white;
-    text-align: center;
-    margin: 60px 0px;
-}
-
-.WeDontupper h2{
-    font-size: 70px;
-    font-weight: bold;
-    word-spacing: 5px;
-}
-
-.WeDontCarts{
-    display: flex;
-    color: white;
-    margin-top: 20px;
-    width: 100%;
-    height: 450px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-
-.WeDontCarts1{
-    background-color:#E22F2C ;
-    
-}
-
-.WeDontCarts2{
-    border: 1px solid white;
-}
-
-.WeDontCarts3{
-    background-color:#E22F2C ;
- 
-}
-
-.WeDontCartshead h4{
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 50px;
-}
-
-.WeDontCartsp p{
-    font-size: 15px;
-    margin-top: 25px;
-}
-
-/* =================================================== */
-
-/*AboutForm SECTION CSS =-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-.ConnectourTeamSection{
-    color: #FFFFFF;
-}
-
-.ConnectourTeamSections h1{
-    text-align: center;
-    font-size: 75px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-top: 80px;
-}
-
-.ConnectourTeamSection p{
-    font-size: 15px;
-    word-spacing: 5px;
-}
-
-input[type="text"],
-select,
-textarea {
-    border: none;
-    border-bottom: 1px solid white; 
-    outline: none;
-    background-color: transparent;
-    padding: 15px 0;
-    width: 100%;
-    color: #FFFFFF;
-}
-
-@media screen and (max-width:480px) {
-    
-    .ConnectourTeamSections h1{
-        font-size: 30px;  
-    }
-
-    .ConnectourTeamSection p{
-        font-size: 13px;
-    }
-}
-/* =================================================== */
+/* ============================================================= */

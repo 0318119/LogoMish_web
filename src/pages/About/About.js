@@ -3,7 +3,7 @@ import AboutVideoSection from '../../components/AboutVideoSection'
 import Promo from '../../components/Promo'
 import Echo from '../../components/Echo'
 import WeDont from '../../components/WeDont'
-import AboutForm from '../../components/AboutForm'
+import ConnectourTeam from '../../components/ConnectourTeam'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
@@ -14,8 +14,8 @@ function About() {
         <AboutVideoSection />
         <Promo/>
         <Echo/>
-        <WeDont/>
-        <AboutForm/>
+        <WeDont/> 
+        <ConnectourTeam /> 
         <Footer/>
         
       </>

@@ -45,7 +45,7 @@ const ConnectourTeam = () => {
                                 </select>
                                 <label for="Message"></label>
                                 <textarea name="" id="Message" placeholder="Message" cols="20" rows="5"></textarea>
-                            <button type='button' className='btn btn-danger btn-lg mt-4 px-4 py-2'> Submit </button>
+                            <button type='button' className='btn btn-danger btn-lg mt-4 my-5 px-4 py-2'> Submit </button>
                             </form>
                         </div>
                     </div>

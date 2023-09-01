@@ -652,6 +652,14 @@ textarea {
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1199px){
+     
+    .ConnectourTeamSections h1{
+        font-size: 60px;  
+    }
+
+}
+
 @media screen and (max-width:480px) {
     
     .ConnectourTeamSections h1{
