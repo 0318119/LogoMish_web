@@ -4,6 +4,7 @@ import Home from '../pages/Home/Home';
 import Services from '../pages/services/Services';
 import Blog from '../pages/blog/Blog'
 import Packages from '../pages/packages/Packages'
+import About from '../pages/About/About'
 
 const Routing = () => {
   return (
@@ -11,6 +12,7 @@ const Routing = () => {
       <Router>
         <Routes> 
           <Route path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
           <Route path='/Services' element={<Services />} />
           <Route path='/Blog' element={<Blog />} />
           <Route path='/Packages' element={<Packages />} />

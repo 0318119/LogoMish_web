@@ -48,12 +48,12 @@ function Header() {
                 <div className="row">
                   <div className="col-lg-12 d-flex justify-content-center">
                     <div className='d-flex flex-column align-items-center' id={styles.Header_heading}>
-                      <a className={styles.Header_Link}>ABOUT</a>
-                      <a className={styles.Header_Link} >SERVICE</a>
-                      <a className={styles.Header_Link}>WORK</a>
-                      <a className={styles.Header_Link}>BLOG</a>
-                      <a className={styles.Header_Link}>PACKAGES</a>
-                      <a className={styles.Header_Link}>CONTACT</a>
+                      <Link to="/About" className={styles.Header_Link}>ABOUT</Link>
+                      <Link to="/" className={styles.Header_Link} >SERVICE</Link>
+                      <Link to="/" className={styles.Header_Link}>WORK</Link>
+                      <Link to="/" className={styles.Header_Link}>BLOG</Link>
+                      <Link to="/" className={styles.Header_Link}>PACKAGES</Link>
+                      <Link to="/" className={styles.Header_Link}>CONTACT</Link>
                     </div>
                   </div>
                 </div>
